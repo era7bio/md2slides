@@ -1,0 +1,11 @@
+[app]
+  version: 0.1.1
+  org: com.era7
+  name: md2slides
+  class: com.era7.md2slides
+[scala]
+  version: 2.9.2
+[repositories]
+  local
+  sonatype-oss-releases
+  maven-central
