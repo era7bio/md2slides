@@ -14,7 +14,7 @@ object md2slides {
    * returns the process status code */
   def run(args: Array[String]): Int = {
 
-    val parser = new scopt.immutable.OptionParser[md2slidesConf] {
+    val parser = new scopt.immutable.OptionParser[md2slidesConf]("md2slides", "0.1.2") {
 
       def options = Seq(
         opt("o", "output", "output file") { 
