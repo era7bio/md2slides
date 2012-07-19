@@ -9,3 +9,4 @@
   local
   sonatype-oss-releases
   maven-central
+  era7-releases: http://releases.era7.com.s3.amazonaws.com/
